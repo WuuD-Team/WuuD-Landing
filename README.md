@@ -1,46 +1,102 @@
-# Getting Started with Create React App
+<p align="center">
+	<a>
+		<img alt="NPM" src="https://img.shields.io/npm/l/react?color=black">
+		<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/WuuD-Team/WuuD-Website?color=red&label=Version">
+		<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/WuuD-Team/WuuD-Website/react">
+		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WuuD-Team/WuuD-Website?color=purple">
+		<img alt="GitHub commit merge status" src="https://img.shields.io/github/commit-status/WuuD-Team/WuuD-Website/master/306be9469258610f6489335f9ab786202e906aa8?color=orange&label=Commit">
+		<img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=maintenance&style=flat-square&up_message=online&url=https%3A%2F%2Fwuud.net"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/WuuD-Team/WuuD-Website?style=social">
+	</a>
+</p>
+<p align="center">
+	<a href="https://wuud.net">
+		<img width="320" height="348" src="https://github.com/WuuD-Team/WuuD-Website/blob/master/favicon.ico?raw=true" alt="wuud">
+	</a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+ <h1 align="center">The Official WuuD Team Landing Page.</h1>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+ <i>Developed with :heart: and passion!</i>
+</p>
 
-### `yarn start`
+<p align="center">
+    <img src="https://www.linkapi.solutions/uploads/2019/05/Developer-Experience.gif">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Build & Run
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Development Mode
 
-### `yarn test`
+```bsh
+$ yarn
+$ yarn start
+```
+## Dev Team
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<table align="center">
+<tbody>
+  <tr>
+    <td align="center" valign="top" width="11%">
+      <a href="https://github.com/badjio">
+        <img
+          alt="Backend Developer"
+          src="https://avatars2.githubusercontent.com/u/15873766?s=400&v=4"
+          style="border-radius: 50px"
+          width="100"
+          height="100"
+        />
+        <br />
+        <br />
+        <i>Moh Badjah</i>
+        <br />
+      </a>
+      <i>Backend Developer</i>
+    </td>
+    <td align="center" valign="top" width="11%">
+      <a href="https://github.com/na6im">
+        <img
+          alt="Web Developer"
+          src="https://avatars1.githubusercontent.com/u/38627023?s=400&v=4"
+          style="border-radius: 50px"
+          width="100"
+          height="100"
+        />
+        <br />
+        <br />
+        <i>Nassim Amokrane</i>
+        <br />
+      </a>
+      <i>Web Developer</i>
+    </td>
+    <td align="center" valign="top" width="11%">
+      <a href="https://github.com/MedRedha">
+        <img
+          alt="Mobile Developer"
+          src="https://github.com/medredha.png?s=75"
+          style="border-radius: 50px"
+          width="100"
+          height="100"
+        />
+        <br />
+        <br />
+        <i>Med Redha</i>
+        <br />
+      </a>
+      <i>Mobile Developer</i>
+    </td>
+  </tr>
+</tbody>
+</table>
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The code is available under the [MIT](https://github.com/WuuD-Team/WuuD-Website/blob/master/LICENSE) license.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+ <b>WuuD® - in code we trust -
+</p>
