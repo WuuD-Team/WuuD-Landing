@@ -19,8 +19,6 @@ const Logo = styled.img`
 function App() {
   return (
     <Container>
-
-
       <Logo src={wuud} />
     </Container>
   );
