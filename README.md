@@ -1,15 +1,13 @@
 <p align="center">
-	<a>
 		<img alt="NPM" src="https://img.shields.io/npm/l/react?color=black">
 		<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/WuuD-Team/WuuD-Website?color=red&label=Version">
 		<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/WuuD-Team/WuuD-Website/react">
 		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WuuD-Team/WuuD-Website?color=purple">
 		<img alt="GitHub commit merge status" src="https://img.shields.io/github/commit-status/WuuD-Team/WuuD-Website/master/306be9469258610f6489335f9ab786202e906aa8?color=orange&label=Commit">
+	</br>
 		<img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=maintenance&style=flat-square&up_message=online&url=https%3A%2F%2Fwuud-team.com/"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/WuuD-Team/WuuD-Website?style=social">
-	</a>
+	<img src="https://api.netlify.com/api/v1/badges/1a8f2e27-e68c-4421-af8a-9f010a5faefb/deploy-status" />
 </p>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1a8f2e27-e68c-4421-af8a-9f010a5faefb/deploy-status)](https://app.netlify.com/sites/wuud/deploys)
 
 <p align="center">
 	<a href="https://wuud-team.com/">
@@ -19,7 +17,7 @@
 
 
 <p align="center">
- <h1 align="center">The Official WuuD Team Landing Page.</h1>
+ <h1 align="center">The Official WuuD Team Landing Page</h1>
 </p>
 
 ## Build & Run
