@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import wuud from "./assets/Group 3.svg";
+import wuud from "./assets/wuudTeam.svg";
 
 const Container = styled.div`
   height: 100vh;
@@ -8,7 +8,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: azure;
+  background-color: #1c1c1e;
 `;
 
 const Logo = styled.img`
