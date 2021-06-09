@@ -13,7 +13,7 @@
 
 <p align="center">
 	<a href="https://wuud-team.com/">
-		<img height="348" src="https://i.imgur.com/IaMWb1g.png" alt="wuud">
+		<img src="https://i.imgur.com/z1OlxET.jpg" alt="wuud team cover">
 	</a>
 </p>
 
@@ -85,5 +85,9 @@
 The code is available under the [MIT](https://github.com/WuuD-Team/WuuD-Landing/blob/master/LICENSE) license.
 
 <p align="center">
-	<b>WuuD Team® - In Code We Trust - </b>
+  <b align="center">
+    <a href="https://wuud-team.com/">
+      WuuD Team® - In Code We Trust -
+    </a>
+  </b>
 </p>
