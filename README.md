@@ -1,13 +1,15 @@
 <p align="center">
-		<img alt="NPM" src="https://img.shields.io/npm/l/react?color=black">
-		<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/WuuD-Team/WuuD-Website?color=red&label=Version">
-		<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/WuuD-Team/WuuD-Website/react">
-		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WuuD-Team/WuuD-Website?color=purple">
-		<img alt="GitHub commit merge status" src="https://img.shields.io/github/commit-status/WuuD-Team/WuuD-Website/master/306be9469258610f6489335f9ab786202e906aa8?color=orange&label=Commit">
+		<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/WuuD-Team/WuuD-Landing?style=flat&color=blueviolet&logo=GitHub&label=Version">
+		<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/WuuD-Team/WuuD-Landing/react?style=flat&logo=React&label=React">
+		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WuuD-Team/WuuD-Landing?style=flat&color=ff69b4&label=Last%20Commit">
+		<img alt="Pull Request" src="https://img.shields.io/github/issues-pr/WuuD-Team/WuuD-Landing?label=Pull%20Request">
 	</br>
-		<img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=maintenance&style=flat-square&up_message=online&url=https%3A%2F%2Fwuud-team.com/"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/WuuD-Team/WuuD-Website?style=social">
+		<img alt="Website" src="https://img.shields.io/website?down_color=critical&down_message=down&style=flat&logo=internet&up_color=green&up_message=up&url=https%3A%2F%2Fwuud-team.com%2F">
 	<img src="https://api.netlify.com/api/v1/badges/1a8f2e27-e68c-4421-af8a-9f010a5faefb/deploy-status" />
+	<img alt="GitHub stars" src="https://img.shields.io/github/stars/WuuD-Team/WuuD-Landing?style=social">
 </p>
+
+<h1 align="center">The Official WuuD Team® Landing Page</h1>
 
 <p align="center">
 	<a href="https://wuud-team.com/">
@@ -15,39 +17,30 @@
 	</a>
 </p>
 
+</br>
 
 <p align="center">
- <h1 align="center">The Official WuuD Team Landing Page</h1>
+ <h1 align="center">Dev Team</h1>
 </p>
-
-## Build & Run
-
-#### Development Mode
-
-```bsh
-$ yarn
-$ yarn start
-```
-## Dev Team
 
 <table align="center">
 <tbody>
-  <tr>
-    <td align="center" valign="top" width="11%">
+  <tr border-radius="50%">
+    <td align="center" valign="top" width="11%" border-radius="50%">
       <a href="https://github.com/badjio">
         <img
           alt="Backend Developer"
           src="https://avatars2.githubusercontent.com/u/15873766?s=400&v=4"
-          style="border-radius: 50px"
+          style="border-radius:50%"
           width="100"
           height="100"
         />
         <br />
         <br />
-        <i>Moh Badjah</i>
+        <b>Moh Badjah</b>
         <br />
       </a>
-      <i>Backend Developer</i>
+	Lead Backend Developer
     </td>
     <td align="center" valign="top" width="11%">
       <a href="https://github.com/na6im">
@@ -60,10 +53,10 @@ $ yarn start
         />
         <br />
         <br />
-        <i>Nassim Amokrane</i>
+        <b>Nassim Amokrane</b>
         <br />
       </a>
-      <i>Web Developer</i>
+      	Lead Web Developer
     </td>
     <td align="center" valign="top" width="11%">
       <a href="https://github.com/MedRedha">
@@ -76,20 +69,21 @@ $ yarn start
         />
         <br />
         <br />
-        <i>Med Redha</i>
+        <b>Med Redha</b>
         <br />
       </a>
-      <i>Mobile Developer</i>
+      	Lead Mobile Developer
     </td>
   </tr>
 </tbody>
 </table>
 
+</br>
 
 ## License
 
-The code is available under the [MIT](https://github.com/WuuD-Team/WuuD-Website/blob/master/LICENSE) license.
+The code is available under the [MIT](https://github.com/WuuD-Team/WuuD-Landing/blob/master/LICENSE) license.
 
 <p align="center">
- <b>WuuD Team® - In Code We Trust -
+	<b>WuuD Team® - In Code We Trust - </b>
 </p>
