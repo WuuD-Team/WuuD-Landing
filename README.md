@@ -63,7 +63,7 @@
         <img
           alt="Mobile Developer"
           src="https://github.com/medredha.png?s=75"
-          style="border-radius: 50px"
+          style="border-radius: 50"
           width="100"
           height="100"
         />
