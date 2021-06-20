@@ -84,10 +84,11 @@
 
 The code is available under the [MIT](https://github.com/WuuD-Team/WuuD-Landing/blob/master/LICENSE) license.
 
-<p align="center">
+<h3 align="center">
   <b align="center">
+  Made with 💖 by the
     <a href="https://wuud-team.com/">
       WuuD Team® - In Code We Trust -
     </a>
   </b>
-</p>
+</h3>
