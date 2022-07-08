@@ -35,7 +35,7 @@ function App() {
   return (
     <Container>
       <Logo src={wuud} />
-      <Copyright>© 2022 WuuD Team Technologies, Inc.</Copyright>
+      <Copyright>© 2022 WuuD Team Technologies LLC</Copyright>
     </Container>
   );
 }
