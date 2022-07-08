@@ -1,27 +1,31 @@
 <p align="center">
-		<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/WuuD-Team/WuuD-Landing?style=flat&color=blueviolet&logo=GitHub&label=Version">
-		<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/WuuD-Team/WuuD-Landing/react?style=flat&logo=React&label=React">
-		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WuuD-Team/WuuD-Landing?style=flat&color=ff69b4&label=Last%20Commit">
-		<img alt="Pull Request" src="https://img.shields.io/github/issues-pr/WuuD-Team/WuuD-Landing?label=Pull%20Request">
-	</br>
-		<img alt="Website" src="https://img.shields.io/website?down_color=critical&down_message=down&style=flat&logo=internet&up_color=green&up_message=up&url=https%3A%2F%2Fwuud-team.com%2F">
+    <img alt="Website" src="https://img.shields.io/website?down_color=critical&down_message=down&style=flat&logo=internet&up_color=green&up_message=up&url=https%3A%2F%2Fwuud-team.com%2F">
 	<img src="https://api.netlify.com/api/v1/badges/1a8f2e27-e68c-4421-af8a-9f010a5faefb/deploy-status" />
-	<img alt="GitHub stars" src="https://img.shields.io/github/stars/WuuD-Team/WuuD-Landing?style=social">
 </p>
 
-<h1 align="center">The Official WuuD Team® Landing Page</h1>
+<h1 align="center">
+    The Official <a href="https://wuud-team.com/">WuuD Team</a> Landing Page
+</h1>
 
 <p align="center">
 	<a href="https://wuud-team.com/">
-		<img src="https://i.imgur.com/z1OlxET.jpg" alt="wuud team cover">
+		<img src="https://i.imgur.com/1PXG5PZ.png" alt="wuud team cover">
 	</a>
 </p>
 
-</br>
+## Setup & build
 
-<p align="center">
- <h1 align="center">Dev Team</h1>
-</p>
+In the project directory, you can run:
+
+`yarn && yarn start`
+
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
+
+## Dev Team
 
 <table align="center">
 <tbody>
@@ -78,17 +82,6 @@
 </tbody>
 </table>
 
-</br>
+<br></br>
 
-## License
-
-The code is available under the [MIT](https://github.com/WuuD-Team/WuuD-Landing/blob/master/LICENSE) license.
-
-<h3 align="center">
-  <b align="center">
-  Made with 💖 by the
-    <a href="https://wuud-team.com/">
-      WuuD Team® - In Code We Trust -
-    </a>
-  </b>
-</h3>
+<h3 align="center">Copyright © 2022 WuuD Team Technologies, Inc.</h3>
