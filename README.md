@@ -84,4 +84,4 @@ You will also see any lint errors in the console.
 
 <br></br>
 
-<h3 align="center">Copyright © 2022 WuuD Team Technologies, Inc.</h3>
+<h3 align="center">Copyright © 2022 WuuD Team Technologies LLC</h3>
