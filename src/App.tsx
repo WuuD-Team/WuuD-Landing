@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import wuud from "./assets/wuudTeam.svg";
+// @ts-ignore
+import StarfieldAnimation from "react-starfield-animation";
 
 const Container = styled.div`
   height: 100vh;
@@ -13,20 +15,36 @@ const Container = styled.div`
 `;
 
 const Logo = styled.img`
-  width: 100%;
+  width: 90%;
+  z-index: 1;
+`;
+
+const Soon = styled.p`
+  bottom: 20%;
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-family: "Urbanist";
+  font-weight: 700;
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+  @media (max-width: 768px) {
+    font-size: 27px;
+  }
 `;
 
 const Copyright = styled.p`
-  bottom: 10%;
+  bottom: 5%;
   color: white;
   position: absolute;
   text-align: center;
   font-family: "Urbanist";
   @media (min-width: 768px) {
-    font-size: 18px;
+    font-size: 16px;
   }
   @media (max-width: 768px) {
-    font-size: 15px;
+    font-size: 13px;
   }
 `;
 
@@ -35,6 +53,15 @@ function App() {
   return (
     <Container>
       <Logo src={wuud} />
+      <StarfieldAnimation
+        numParticles={1000}
+        style={{
+          position: "absolute",
+          width: "100%",
+          height: "100%",
+        }}
+      />
+      <Soon>Coming Soon...</Soon>
       <Copyright>© 2022 WuuD Team Technologies LLC</Copyright>
     </Container>
   );
