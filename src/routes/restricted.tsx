@@ -1,7 +1,6 @@
 import React from 'react';
 
 import styled from 'styled-components';
-import {useHistory} from 'react-router-dom';
 
 import forbidden from '../assets/forbidden.svg';
 import logo from '../assets/WuuDTeam.svg';
@@ -20,13 +19,8 @@ const WuuDLogo = styled.img`
   top: 2%;
   left: 0;
   width: 20%;
-  cursor: pointer;
   position: absolute;
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  user-drag: none;
+  pointer-events: none;
 `;
 
 const Forbidden = styled.img`
@@ -65,15 +59,9 @@ const Copyright = styled.p`
 `;
 
 function restricted() {
-  const navigate = useHistory();
-
-  const routeChange = () => {
-    navigate.push('/');
-  };
-
   return (
     <Container>
-      <WuuDLogo src={logo} onClick={() => routeChange()} />
+      <WuuDLogo src={logo} />
       <Forbidden src={forbidden} />
       <Oops>
         Oops! It looks like WuuD Team is not available in your area yet.
