@@ -2,7 +2,7 @@ import React from 'react';
 
 import ReactDOM from 'react-dom';
 import './index.css';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
 
 import home from './App';
 import reportWebVitals from './reportWebVitals';
@@ -14,6 +14,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path='/' component={home} />
         <Route path='/restricted' component={restricted} />
+        <Redirect to='/restricted' />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
