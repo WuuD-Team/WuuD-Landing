@@ -1,8 +1,13 @@
-import React from "react";
-import styled from "styled-components";
-import wuud from "./assets/wuudTeam.svg";
+import React from 'react';
+
 // @ts-ignore
-import StarfieldAnimation from "react-starfield-animation";
+import StarfieldAnimation from 'react-starfield-animation';
+import styled from 'styled-components';
+
+// @ts-ignore
+import TypeWriterEffect from 'react-typewriter-effect';
+
+import WuuDLogo from './assets/WuuDTeam.svg';
 
 const Container = styled.div`
   height: 100vh;
@@ -17,21 +22,14 @@ const Container = styled.div`
 const Logo = styled.img`
   width: 90%;
   z-index: 1;
+  pointer-events: none;
 `;
 
-const Soon = styled.p`
+const Typewriter = styled.div`
   bottom: 20%;
-  color: white;
   position: absolute;
-  text-align: center;
-  font-family: "Urbanist";
-  font-weight: 700;
-  @media (min-width: 768px) {
-    font-size: 30px;
-  }
-  @media (max-width: 768px) {
-    font-size: 27px;
-  }
+  align-items: center;
+  justify-content: center;
 `;
 
 const Copyright = styled.p`
@@ -39,7 +37,7 @@ const Copyright = styled.p`
   color: white;
   position: absolute;
   text-align: center;
-  font-family: "Urbanist";
+  font-family: 'Urbanist';
   @media (min-width: 768px) {
     font-size: 16px;
   }
@@ -48,23 +46,44 @@ const Copyright = styled.p`
   }
 `;
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-function App() {
+function home() {
   return (
     <Container>
-      <Logo src={wuud} />
+      <Logo src={WuuDLogo} />
       <StarfieldAnimation
         numParticles={1000}
         style={{
-          position: "absolute",
-          width: "100%",
-          height: "100%",
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
         }}
       />
-      <Soon>Coming Soon...</Soon>
+      <Typewriter>
+        <TypeWriterEffect
+          textStyle={{
+            width: '100%',
+            height: '100%',
+            color: 'white',
+            textAlign: 'center',
+          }}
+          multiText={[
+            'Smart',
+            'Unique',
+            'Powerful',
+            'Innovative',
+            'WuuD Team',
+            'Coming Soon...',
+          ]}
+          multiTextLoop
+          startDelay={0}
+          typeSpeed={100}
+          cursorColor='#505050'
+          multiTextDelay={1500}
+        />
+      </Typewriter>
       <Copyright>© 2022 WuuD Team Technologies LLC</Copyright>
     </Container>
   );
 }
 
-export default App;
+export default home;
