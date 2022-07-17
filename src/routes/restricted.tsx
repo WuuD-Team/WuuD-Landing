@@ -30,7 +30,7 @@ const Forbidden = styled.img`
 `;
 
 const Oops = styled.div`
-  width: 85%;
+  width: 30%;
   color: white;
   font-weight: 700;
   margin-bottom: 10px;
@@ -59,6 +59,8 @@ const Copyright = styled.p`
 `;
 
 function restricted() {
+  document.title = 'Not available in your area';
+
   return (
     <Container>
       <WuuDLogo src={logo} />
@@ -66,7 +68,6 @@ function restricted() {
       <Oops>
         Oops! It looks like WuuD Team is not available in your area yet.
       </Oops>
-      <Oops>For more information, please contact our support team.</Oops>
       <Copyright>© 2022 WuuD Team Technologies LLC</Copyright>
     </Container>
   );
