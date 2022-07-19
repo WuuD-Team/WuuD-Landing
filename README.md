@@ -1,6 +1,5 @@
 <p align="center">
     <img alt="Website" src="https://img.shields.io/website?down_color=critical&down_message=down&style=flat&logo=internet&up_color=green&up_message=up&url=https%3A%2F%2Fwuud-team.com%2F">
-	<img src="https://api.netlify.com/api/v1/badges/1a8f2e27-e68c-4421-af8a-9f010a5faefb/deploy-status" />
 </p>
 
 <h1 align="center">
