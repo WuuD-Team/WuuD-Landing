@@ -1,7 +1,5 @@
 import React from 'react';
 
-// @ts-ignore
-import StarfieldAnimation from 'react-starfield-animation';
 import styled from 'styled-components';
 
 // @ts-ignore
@@ -50,14 +48,6 @@ function home() {
   return (
     <Container>
       <Logo src={WuuDLogo} />
-      <StarfieldAnimation
-        numParticles={1000}
-        style={{
-          position: 'absolute',
-          width: '100%',
-          height: '100%',
-        }}
-      />
       <Typewriter>
         <TypeWriterEffect
           textStyle={{
@@ -81,7 +71,7 @@ function home() {
           multiTextDelay={1500}
         />
       </Typewriter>
-      <Copyright>© 2022 WuuD Team Technologies LLC</Copyright>
+      <Copyright>© 2022 WuuD Team Technologies UG</Copyright>
     </Container>
   );
 }
