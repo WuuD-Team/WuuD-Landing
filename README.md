@@ -1,7 +1,3 @@
-<p align="center">
-    <img alt="Website" src="https://img.shields.io/website?down_color=critical&down_message=down&style=flat&logo=internet&up_color=green&up_message=up&url=https%3A%2F%2Fwuud-team.com%2F">
-</p>
-
 <h1 align="center">
     The Official <a href="https://wuud-team.com/">WuuD Team</a> Landing Page
 </h1>
@@ -83,4 +79,4 @@ You will also see any lint errors in the console.
 
 <br></br>
 
-<h3 align="center">Copyright © 2022 WuuD Team Technologies LLC</h3>
+<h3 align="center">Copyright 2023 - The WuuD Team®</h3>
