@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WuuD-Landing/static/css/main.70ada0ed.css",
+    "main.js": "/WuuD-Landing/static/js/main.4b0fb255.js",
+    "static/js/787.39e19379.chunk.js": "/WuuD-Landing/static/js/787.39e19379.chunk.js",
+    "static/media/WuuDTeam.svg": "/WuuD-Landing/static/media/WuuDTeam.582b1e7745b472f022270332ed8d4f48.svg",
+    "index.html": "/WuuD-Landing/index.html",
+    "main.70ada0ed.css.map": "/WuuD-Landing/static/css/main.70ada0ed.css.map",
+    "main.4b0fb255.js.map": "/WuuD-Landing/static/js/main.4b0fb255.js.map",
+    "787.39e19379.chunk.js.map": "/WuuD-Landing/static/js/787.39e19379.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ada0ed.css",
+    "static/js/main.4b0fb255.js"
+  ]
+}
