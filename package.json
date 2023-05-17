@@ -2,8 +2,8 @@
   "private": true,
   "version": "0.0.2",
   "name": "wuud-landing",
+  "homepage": "https://wuud-team.com",
   "description": "WuuD Team Official Landing Page",
-  "homepage": "https://wuud-team.github.io/WuuD-Landing",
   "author": {
     "name": "The WuuD Team®",
     "email": "dev@wuud-team.com",
