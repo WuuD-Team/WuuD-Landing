@@ -1,14 +1,14 @@
 {
+  "private": true,
+  "version": "0.0.2",
   "name": "wuud-landing",
   "description": "WuuD Team Official Landing Page",
-  "version": "0.0.2",
-  "homepage": "https://wuud-team.com",
+  "homepage": "https://wuud-team.github.io/WuuD-Landing",
   "author": {
     "name": "The WuuD Team®",
     "email": "dev@wuud-team.com",
     "url": "https://github.com/WuuD-Team"
   },
-  "private": true,
   "scripts": {
     "prepare": "husky install",
     "pre-commit": "lint-staged",
