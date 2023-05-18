@@ -8,32 +8,6 @@ import TypeWriterEffect from 'react-typewriter-effect';
 import './index.css';
 import WuuDLogo from './assets/WuuDTeam.svg';
 
-const Container = styled.div`
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: rgb(48, 207, 208);
-  background: -moz-radial-gradient(
-    circle,
-    rgba(48, 207, 208, 1) 0%,
-    rgba(51, 8, 103, 1) 80%
-  );
-  background: -webkit-radial-gradient(
-    circle,
-    rgba(48, 207, 208, 1) 0%,
-    rgba(51, 8, 103, 1) 80%
-  );
-  background: radial-gradient(
-    circle,
-    rgba(48, 207, 208, 1) 0%,
-    rgba(51, 8, 103, 1) 80%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#30cfd0",endColorstr="#330867",GradientType=1);
-`;
-
 const Logo = styled.img`
   width: 90%;
   z-index: 1;
@@ -62,8 +36,7 @@ const Copyright = styled.p`
 `;
 
 const Contact = styled.p`
-  color: black;
-  font-weight: 500;
+  color: white;
   text-align: center;
   font-family: 'Urbanist';
   @media (min-width: 768px) {
@@ -79,12 +52,13 @@ const Button = styled.button`
   height: 45px;
   width: 120px;
   display: flex;
+  border-width: 1px;
   position: absolute;
   border-radius: 50px;
   align-items: center;
+  border-color: white;
   justify-content: center;
-  background-color: white;
-  border-color: transparent;
+  background-color: transparent;
 `;
 
 function home() {
@@ -94,7 +68,7 @@ function home() {
   };
 
   return (
-    <Container>
+    <div className='gradient-background'>
       <Logo src={WuuDLogo} />
       <Typewriter>
         <TypeWriterEffect
@@ -119,11 +93,11 @@ function home() {
           multiTextDelay={1500}
         />
       </Typewriter>
-      <Button type='button' onClick={handleClick} className='contact-button'>
+      <Button type='button' onClick={handleClick}>
         <Contact>Contact Us</Contact>
       </Button>
       <Copyright>© 2023 WuuD Team Technologies</Copyright>
-    </Container>
+    </div>
   );
 }
 
